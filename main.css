@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-height: 540px;
+}
+
+#frame {
+  background-image: url('frame.gif');
+  background-size: cover;
+  float: left;
+  margin: 15% 0;
+  max-height: 540px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 1px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+    max-width: 100%;
+  }
+}
